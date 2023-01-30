@@ -1,8 +1,10 @@
 import SlideShow from "./SlideShow";
+import anchor from "./images/anchor.png";
 import pizza from "./images/pizza.png";
 import beer from "./images/beer.png";
 import camera from "./images/camera.png";
 import party from "./images/party.png";
+import tudor from "./images/tudor.png";
 
 function Slides() {
   const slides = [
@@ -21,6 +23,14 @@ function Slides() {
     {
       image: `${party}`,
       caption: "four",
+    },
+    {
+      image: `${tudor}`,
+      caption: "five",
+    },
+    {
+      image: `${anchor}`,
+      caption: "six",
     },
   ];
   return (
