@@ -51,7 +51,7 @@ function SlideShow({ slides }) {
           <div className="slide-show-container">
             <div id="slide" className="card-text">
               <img className="image" src={slides[slideNumber].image} alt="" />
-              <p>{slides[slideNumber].caption}</p>
+              <p className="caption">{slides[slideNumber].caption}</p>
             </div>
           </div>
         </div>
