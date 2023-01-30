@@ -1,21 +1,25 @@
 import SlideShow from "./SlideShow";
+import pizza from "./images/pizza.png";
+import beer from "./images/beer.png";
+import camera from "./images/camera.png";
+import party from "./images/party.png";
 
 function Slides() {
   const slides = [
     {
-      image: "Slide 1",
+      image: `${pizza}`,
       caption: "one",
     },
     {
-      image: "Slide 2",
+      image: `${camera}`,
       caption: "two",
     },
     {
-      image: "Slide 3",
+      image: `${beer}`,
       caption: "three",
     },
     {
-      image: "Slide 4",
+      image: `${party}`,
       caption: "four",
     },
   ];

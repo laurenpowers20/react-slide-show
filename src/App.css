@@ -9,7 +9,9 @@ body {
   font-family: "Monoton", cursive;
   color: white;
 }
-
+.image {
+  height: 300px;
+}
 .title {
   font-size: 3.8rem;
   padding: 0;
@@ -472,5 +474,9 @@ body {
   .card-text {
     height: 210px;
     width: 210px;
+  }
+  .image {
+    height: 100px;
+    padding-top: 60px;
   }
 }

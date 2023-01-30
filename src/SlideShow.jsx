@@ -26,7 +26,6 @@ function SlideShow({ slides }) {
         <div>
           <div id="navigation">
             <button
-              data-testid="button-restart"
               className="button"
               disabled={slideNumber === 0}
               onClick={restart}
@@ -34,7 +33,6 @@ function SlideShow({ slides }) {
               Restart
             </button>
             <button
-              data-testid="button-prev"
               className="button"
               disabled={slideNumber === 0}
               onClick={prevSlide}
@@ -42,7 +40,6 @@ function SlideShow({ slides }) {
               Prev
             </button>
             <button
-              data-testid="button-next"
               className="button"
               disabled={slideNumber >= slides.length - 1}
               onClick={nextSlide}
@@ -53,7 +50,7 @@ function SlideShow({ slides }) {
 
           <div className="slide-show-container">
             <div id="slide" className="card-text">
-              <h1>{slides[slideNumber].image}</h1>
+              <img className="image" src={slides[slideNumber].image} alt="" />
               <p>{slides[slideNumber].caption}</p>
             </div>
           </div>
