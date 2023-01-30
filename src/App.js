@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Slides from "./Slides";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+    <>
+      <main>
+        <p className="title">A Simple React Slide Show</p>
+        <Slides />
+        <a href="https://react-portfolio-lauren-powers.netlify.app/features">
+          {" "}
+          <button className="button back-button">Back to Lil' Portfolio</button>
         </a>
-      </header>
-    </div>
+      </main>
+    </>
   );
 }
 
