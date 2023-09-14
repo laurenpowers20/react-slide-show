@@ -9,7 +9,7 @@ function App() {
         <Slides />
         <a href="https://react-portfolio-lauren-powers.netlify.app/features">
           {" "}
-          <button className="button back-button">Back to Lil' Portfolio</button>
+          <button className="button back-button">Back</button>
         </a>
       </main>
     </>
